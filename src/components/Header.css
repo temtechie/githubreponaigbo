@@ -1,0 +1,58 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #1e1e4c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+
+  }
+  
+  .navbar-logo {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .logo-coin{
+    color: orangered;
+  }
+  
+  .navbar-menu {
+    display: flex;
+  }
+  
+  .navbar-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .navbar-menu li:hover{
+    background-color: #52526c;
+  }
+  
+  .navbar-login button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar-login button:hover {
+    background-color: #ddd;
+  }
+  
